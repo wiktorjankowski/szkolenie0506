@@ -6,7 +6,6 @@ s3Client = boto3.client('s3')
 snsClient = boto3.client('sns', region_name='eu-west-1')
 
 phone_number = os.environ['phone_number']
-sender_id = os.environ['sender_id']
 topic_name = os.environ['topic_name']
 email = os.environ['email']
 
