@@ -48,11 +48,11 @@ Short description
 3. Create directory. Type ``mkdir myapp`` and press *Enter*.
 4. Enter the ditectory by typing ``cd myapp`` and press *Enter*.
 5. Create and edit a new file by entering ``nano app.py```.
-6. Download [app.py file](app.py) and paste its content into nano editor.
+6. Download [app.py file](Files/app.py) and paste its content into nano editor.
 7. Press **CTRL+O** and **CTRL+X** to save the file.
 8. Include Flask into requirements by entering ``echo "Flask" > requirements.txt``.
 9. Create Dokerfile by entering ``nano Dockerfile``.
-10. Download [Dockerfile](Dockerfile) and paste its content into nano editor.
+10. Download [Dockerfile](Files/Dockerfile) and paste its content into nano editor.
 11. Press **CTRL+O** and **CTRL+X** to save the file.
 12. Build the app by entering ``docker build -t myapp:latest .`` 
 13. After the build compiles you can try run it by: ``docker run -d -p 5000:5000 myapp``
@@ -104,12 +104,12 @@ After the upload finishes, you should have your new image built and uploaded to 
 8. For **Role name**, type *ecsCodeDeployRole*, enter an optional description, and then choose **Create role**.
 9. Select your role.
 10. Click **Add inline policy**.
-11. Click **JSON** and paste contents of [the policy file](./files/policy.json).
+11. Click **JSON** and paste contents of [the policy file](Files/policy.json).
 12. Click **Review policy**
 13. Enter policy **Name**
 12. Click **Create policy**
 13. Click **Add inline policy**.
-14. Click **JSON** and paste contents of [the policy file](./files/policy2.json).
+14. Click **JSON** and paste contents of [the policy file](Files/policy2.json).
 15. Save changes.
 
 ## Task 7: Creating Load Balancer
@@ -168,7 +168,7 @@ After the upload finishes, you should have your new image built and uploaded to 
 
 ## Task 10: Creating Task Definition
 
-1. Download and modify file of [definition file](./files/taks_definition.json)
+1. Download and modify file of [definition file](Files/taks_definition.json)
 2. Inside **executionRoleArn** node remove value and paste your role ARN.
 3. Inside **containerDefinitions** and **image** node remove value and paste your ECR repository URI (copy it from web console)
 4. Copy whole content of your modified file into memory.
