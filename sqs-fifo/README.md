@@ -20,7 +20,7 @@
 7. Turn **Content-Based Deduplication** on by checking the checkmark.
 8. Leave the rest unchanged and click **Create Queue**.
 
-## Task 2: Create Cloud9 Environemnt
+## Task 2: Creating Cloud9 Environemnt
 1.  In the AWS Management Console, on the **Services** menu, click **Cloud9**.
 2.  Click **Create Environemnt**.
 3.  Enter a **Name**: *student-x-cloud9*
