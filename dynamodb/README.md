@@ -44,21 +44,23 @@ Short description
 
 ## Task 3: Creating a DynamoDB table
 
-1.  Log into your EC2 instance using ssh.
-2.  Run command ``pip install --upgrade --user boto3``.
-3.  Create a folder by typing ``mkdir dynamodb``.
-4.  Enter the directory ``cd dynamodb``.
-5.  Create new file by typing ``nano create_dynamodb_table.py``.
-6.  Download [create_dynamodb_table.py file](create_dynamodb_table.py) and paste its content into editor.
-7.  Edit table name.
-8.  Press CTRL-O to save the file.
-9.  Press CTRL-X to exit nano.
-10.  Type ``python create_dynamodb_table.py`` to create the table.
+1.  Open Cloud9 service and click **Open IDE** for your instance.
+2.  If terminal exists please use it otherwise click in top menu **Window** and **New Terminal**
+3.  Type: **sudo su**
+4.  Run command ``pip install --upgrade --user boto3``.
+5.  Create a folder by typing ``mkdir dynamodb``.
+6.  Enter the directory ``cd dynamodb``.
+7.  Create new file by typing ``nano create_dynamodb_table.py``.
+8.  Download [create_dynamodb_table.py file](create_dynamodb_table.py) and paste its content into editor.
+9.  Edit table name.
+10.  Press CTRL-O to save the file.
+11.  Press CTRL-X to exit nano.
+12.  Type ``python create_dynamodb_table.py`` to create the table.
 
 
 ## Task 4: Adding data
 
-1.  In your EC2's ssh console.
+1.  In your Cloud9 terminal.
 2.  Create new file by typing ``nano add_data.py``.
 3.  Download [add_data.py file](add_data.py) and paste its content into editor.
 4.  Edit table name.
@@ -71,7 +73,7 @@ Short description
 
 ## Task 5: Getting data
 
-1.  Go back to your EC2's ssh console.
+1.  Go back to your Cloud9 environment.
 2.  Create new file by typing ``nano get_data.py``.
 3.  Download [get_data.py file](get_data.py) and paste its content into editor.
 4.  Edit table name.
@@ -92,7 +94,7 @@ If there is no error reported, you should get a response.
 
 ## Task 7: Querying data
 
-1.  Go back to your EC2's ssh console.
+1.  Go back to your Cloud9 environment.
 2.  Create new file by typing ``nano query_data.py``.
 3.  Download [query_data.py file](query_data.py) and paste its content into editor.
 4.  Edit table name.
