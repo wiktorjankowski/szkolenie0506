@@ -41,7 +41,7 @@
 7.  Find **AWSCloud9SSMInstanceProfile** policy and add it to the role.
 8.  Click **Next: Tags**.
 8.  Click **Next: Review**.
-10.  Enter a **Role name**: *student-X-EC2-Cloud9-role*.
+10.  Enter a **Role name**: *student-X-EC2-Cloud9-SQS-role*.
 11. Click **Create role**.
 12. In the AWS Management Console, on the Services menu, click **EC2**.
 13. In the navigation pane on the left, click **Instances**.
