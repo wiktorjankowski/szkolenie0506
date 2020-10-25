@@ -168,7 +168,7 @@ After the upload finishes, you should have your new image built and uploaded to 
 
 ## Task 10: Creating Task Definition
 
-1. Download and modify file of [definition file](Files/taks_definition.json)
+1. Download and modify file of [definition file](Files/task_definition.json)
 2. Inside **executionRoleArn** node remove value and paste your role ARN.
 3. Inside **containerDefinitions** and **image** node remove value and paste your ECR repository URI (copy it from web console)
 4. Copy whole content of your modified file into memory.
