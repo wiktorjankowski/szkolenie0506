@@ -23,7 +23,7 @@
 ## Task 2: Create Cloud9 Environemnt
 1.  In the AWS Management Console, on the **Services** menu, click **Cloud9**.
 2.  Click **Create Environemnt**.
-3.  Enter a **Name**: student-x-cloud9
+3.  Enter a **Name**: *student-x-cloud9*
 4.  Choose **Create a new no-ingress EC2 instance for environment (access via Systems Manager)**
 5.  Click **t3.small** as an **instance type**
 6.  Leave everything else for default values
