@@ -55,7 +55,7 @@ If case of problem with role select *No Role* Apply and select your Role
 
 We will send messages to one queue but two groups.
 
-1.  Open Cloud9 service and **Open IDE** for your instance.
+1.  Open Cloud9 service and click **Open IDE** for your instance.
 2.  If terminal exists please use it otherwise click in top menu **Window** and **New Terminal**
 3.  Type: **sudo su**
 4.  Create a directory: ``mkdir sqs``.
