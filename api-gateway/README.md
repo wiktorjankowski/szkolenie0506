@@ -66,7 +66,7 @@
 4.  Enter a name for your stage.
 5.  Click **Deploy**.
 6.  At the bottom ofleft menu select **Settings**.
-7.  In the **CloudWatch log role ARN** paste the ARN given by instructor. 
+7.  In the **CloudWatch log role ARN** paste the ARN given by instructor. -> arn:aws:iam::536966783968:role/lab2-rola-apigateway
 8.  Click **Save**.
 9.  Select your stage and click **Logs/Tracing**.
 10. Turn on:
