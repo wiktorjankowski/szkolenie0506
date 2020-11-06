@@ -98,7 +98,7 @@
 10. Click **Manage environment variables**
 11. Click **Add environment variable**
 12. Set a value for key *auth_token* environment variable. (Select your own)
-13. Click **Save**.
+13. Click **Deploy**.
 14. In the AWS Management Console, on the **Services** menu, click **API Gateway**.
 15. Find your API and click on its name.
 16. Click **Authorizers** and **Create New Authorizer**.
