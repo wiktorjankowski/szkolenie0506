@@ -139,18 +139,21 @@ Now you have GET API method with authorization.
 
 Sample *curl* request to test the endpint without authorization token:
 
-``
+```
 curl -s -v -X GET \
   'https://<URL OF YOUR API>' \
   -H 'Content-Type: application/json' \
   -H 'cache-control: no-cache'
-``
+```
 
 And with authorization token sent to the endpoint:
 
 ```
 curl -s -v -X GET \
-'https://<URL OF YOUR API>' -H 'Content-Type: application/json' -H 'Authorization: thisismytokenvalue' -H 'cache-control: no-cache'
+  'https://<URL OF YOUR API>' \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: thisismytokenvalue' \
+  -H 'cache-control: no-cache'
 ```
 
 ## END LAB
