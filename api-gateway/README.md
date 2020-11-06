@@ -98,7 +98,7 @@
 10. Click **Manage environment variables**
 11. Click **Add environment variable**
 12. Set a value for key *auth_token* environment variable. (Select your own)
-13. Click **Save**.
+13. Click **Save** to save env and **Deploy** to update Lambda itself.
 14. In the AWS Management Console, on the **Services** menu, click **API Gateway**.
 15. Find your API and click on its name.
 16. Click **Authorizers** and **Create New Authorizer**.
@@ -139,22 +139,22 @@ Now you have GET API method with authorization.
 
 Sample *curl* request to test the endpint without authorization token:
 
-``
-curl -s -X GET \
+```
+curl -s -v -X GET \
   'https://<URL OF YOUR API>' \
   -H 'Content-Type: application/json' \
   -H 'cache-control: no-cache'
-``
+```
 
 And with authorization token sent to the endpoint:
 
-``
-curl -s -X GET \
+```
+curl -s -v -X GET \
   'https://<URL OF YOUR API>' \
   -H 'Content-Type: application/json' \
   -H 'Authorization: thisismytokenvalue' \
   -H 'cache-control: no-cache'
-``
+```
 
 ## END LAB
 

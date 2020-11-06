@@ -83,7 +83,7 @@ We will read messages from one queue. We will make two requests. The queue does 
 
 Messages are still in the queue. We read them but did not delete. You can check that in the SQS console.
 
-## Task 6: Deleteing messages
+## Task 6: Deleting messages
 
 1.  Create new file by typing ``nano delete.py``.
 2.  Download [delete.py file](Files/delete.py) and paste its content into editor.
