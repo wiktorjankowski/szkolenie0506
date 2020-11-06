@@ -148,13 +148,10 @@ curl -s -v -X GET \
 
 And with authorization token sent to the endpoint:
 
-``
+```
 curl -s -v -X GET \
-  'https://<URL OF YOUR API>' \
-  -H 'Content-Type: application/json' \
-  -H 'Authorization: thisismytokenvalue' \
-  -H 'cache-control: no-cache'
-``
+'https://<URL OF YOUR API>' -H 'Content-Type: application/json' -H 'Authorization: thisismytokenvalue' -H 'cache-control: no-cache'
+```
 
 ## END LAB
 
