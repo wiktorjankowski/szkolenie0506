@@ -77,7 +77,7 @@ In this task you will edit existing Lambda code. Lambda will generate signed url
 4. Scroll down to Section **Environment variables**
 5. Click **Manage environment variables**
 6. Click **Add environment variable**
-7. Create four environment variables:
+7. Three four environment variables:
     * phone_number - number of the phone SNS will send messages to eg. +48111111111
     * topic_name - name of SNS topic that is going to be created
     * email - your mailbox ;)
